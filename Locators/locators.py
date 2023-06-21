@@ -1,0 +1,55 @@
+from selenium.webdriver.common.by import By
+
+class LogInLocators:
+    textbox_username_id = (By.ID, "Email")
+    textbox_password_id = (By.ID, "Password")
+    button_login_xpath = (By.XPATH, "//button[contains(text(),'Log in')]")
+    link_logout_linktext = (By.LINK_TEXT, "Logout")
+
+class AddCustomersLocators:
+    lnkCustomers_menu_xpath = (By.XPATH, "//a[@href='#']//p[contains(text(),'Customers')]")
+    lnkCustomers_menuItem_xpath = (By.XPATH, "//a[@href='/Admin/Customer/List']//p[contains(text(),'Customers')]")
+    btnAddNew_xpath = (By.XPATH, "//a[normalize-space()='Add new']")
+    txtEmail_xpath = (By.XPATH, "//input[@id='Email']")
+    txtPassword_xpath = (By.XPATH, "//input[@id='Password']")
+    txtFirstName_xpath = (By.XPATH, "//input[@id='FirstName']")
+    txtLastName_xpath = (By.XPATH, "//input[@id='LastName']")
+    rdMaleGender_id = (By.ID, "Gender_Male")
+    rdFemaleGender_id = (By.ID, "Gender_Female")
+    txtDOB_xpath = (By.XPATH, "//input[@id='DateOfBirth']")
+    txtCompanyName_xpath = (By.XPATH, "//input[@id='Company']")
+    cbTaxExempt_id = (By.ID, "IsTaxExempt")
+    lbNewsletter_xpath = (By.XPATH, "//div[@class='k-widget k-multiselect k-multiselect-clearable k-state-hover']")
+    lbNewsletter_option1_xpath = (By.XPATH, "//*[@id='SelectedNewsletterSubscriptionStoreIds']/option[1]")
+    lbNewsletter_option2_xpath = (By.XPATH, "//*[@id='SelectedNewsletterSubscriptionStoreIds']/option[2]")
+    btDeleteCustomerRole_xpath = (By.XPATH, "//*[@id='SelectedCustomerRoleIds_taglist']/li/span[2]")
+    lbCustomersRoles_xpath = (By.XPATH, "//div[@class='input-group-append input-group-required']//div[@role='listbox']")
+    lstItemRegistered_xpath = (By.XPATH, "//span[normalize-space()='Registered']")
+    lstItemAdministrators_xpath = (By.XPATH, "//li[contains(text(),'Administrators')]")
+    lstItemGuests_xpath = (By.XPATH, "//li[contains(text(),'Guests')]")
+    lstItemVendors_xpath = (By.XPATH, "//li[contains(text(),'Vendors')]")
+    lbManagerOfVendor_xpath = (By.XPATH, "//select[@id='VendorId']")
+    lbVendor_option1_xpath = (By.XPATH, "select[id='VendorId'] option[value='1']")
+    lbVendor_option2_xpath = (By.XPATH, "//option[normalize-space()='Vendor 2']")
+    cbActive_id = (By.ID, "Active")
+    txtComment_id = (By.ID, "AdminComment")
+    btnSave_xpath = (By.XPATH, "//button[@name='save']")
+
+class SearchCustomerLocators:
+    txtEmail_id = (By.ID, "SearchEmail")
+    txtFirstName_id = (By.ID, "SearchFirstName")
+    txtLastName_id = (By.ID, "SearchLastName")
+    btnSearch_id = (By.ID, "search-customers")
+    tblSearchResults_xpath = (By.XPATH, "//table[@role='grid']")
+    table_id = (By.ID, "customers-grid_wrapper")
+    table_xpath = (By.XPATH, "//table[@id='customers-grid']")
+    tableRows_xpath = (By.XPATH, "//table[@id='customers-grid']//tbody/tr")
+    tableColumns_xpath = (By.XPATH, "//table[@id='customers-grid']//tbody/tr/td")
+    btnEdit_xpath = (By.XPATH, "//a[normalize-space()='Edit']")
+    btnDelete_xpath = (By.XPATH, "//span[@id='customer-delete']")
+    modalDelete_id = (By.ID, "customermodel-Delete-delete-confirmation-title")
+    btnModalDelete_xpath = (By.XPATH, "//button[normalize-space()='Delete']")
+    btnDeleteDefaultRole_xpath = (By.XPATH, "//span[@title='delete']")
+
+
+
