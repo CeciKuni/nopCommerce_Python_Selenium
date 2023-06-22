@@ -1,5 +1,3 @@
-# nopCommerce_Python_Selenium
-
 # Demo Automation - Python con Selenium y Pytest
 
 Este es mi primer proyecto de automation con Selenium-Webdriver y Python. Seguí las instrucciones del curso: [SDET- QA Automation Techie](https://www.youtube.com/watch?v=57pjD89IFXA ). Me sirvió mucho la guía ya que estuve buscando cómo armar de forma más organizada toda la estructura del proyecto con Page Object Model. Hubo muchas cosas que actualicé y mejoré, ya que el curso es de hace 2 años. También coloqué aparte los "Locators" de los elementos (me gusta tenerlo en un solo lugar).
