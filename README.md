@@ -6,7 +6,7 @@ Me quedó pendiente terminar de configurar el proyecto en Jenkins y ver la maner
 
 ## Datos
 
-1. Página de prueba utilizada: [NonCommerce](https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F)
+1. Página de prueba utilizada: [NopCommerce](https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F)
 2. Sistema Operativo: Windows 10.
 3. Navegadores configurados: Chrome por defecto, Firefox y Edge.
 4. IDE: Pycharm (generalmente utilizo Visual Studio Code, pero para Python me pareció mucho más sencillo utilizar Pycharm).
@@ -34,7 +34,7 @@ $ pip install selenium
 
 ## Estructura del proyecto
 
-- [Locators](Locators) - Locators de los elementos web agrupado en clases por módulos.
+- [Locators](Locators) - Locators de los elementos webs agrupados en clases por módulos.
 - [Configurations](Configurations) - Archivo "config.ini" con la url de la página, username, password e email. Se pueden colocar todas las variables a utilizar en esta hoja.
 - [Logs](Logs) - Los logs que se van generando. No se pisan por lo tanto hay que ir limpiando cada tanto.
 - [PageObjects](PageObjects) - Por cada módulo se crea una página con clases y métodos. Para ser utilizados con los testcases.
