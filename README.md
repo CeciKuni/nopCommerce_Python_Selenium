@@ -55,7 +55,7 @@ $ pytest --html=Reports\report.html --capture=tee-sys TestCases/test_login.py
 ```
 Para especificar otro navegador ya sea Firefox o Edge:
 ```
-$ pytest --html=Reports\report.html --capture=tee-sys TestCases/test_login.py --brower "firefox"
+$ pytest --html=Reports\report.html --capture=tee-sys TestCases/test_login.py --browser "firefox"
 ```
 Para correr 3 veces en parelelo el mismo test:
 ```
